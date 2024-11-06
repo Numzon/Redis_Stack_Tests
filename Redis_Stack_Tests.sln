@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis_Stack_Tests", "Redis_Stack_Tests\Redis_Stack_Tests.csproj", "{3DF149DC-D0F3-4BA9-A421-F92562591601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{EDAFF615-E2AB-496C-A9C1-6466C1587C5A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B0028D39-3C6E-440E-8B34-744FBF0CE6A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF149DC-D0F3-4BA9-A421-F92562591601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF149DC-D0F3-4BA9-A421-F92562591601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF149DC-D0F3-4BA9-A421-F92562591601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF149DC-D0F3-4BA9-A421-F92562591601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DF149DC-D0F3-4BA9-A421-F92562591601} = {B0028D39-3C6E-440E-8B34-744FBF0CE6A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47789D7E-9A37-4BD7-9CD4-AB7E0F2FD4E5}
+	EndGlobalSection
+EndGlobal
